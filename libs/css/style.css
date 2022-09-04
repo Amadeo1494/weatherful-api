@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --orange-color: #E88846;
+    --white-color: #FFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Tangerine', serif;
+    background-color: var(--white-color);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"] {
+    height: 40px;
+    font-size: 20px;
+}
+
+.jumbotron {
+    font-size: 39px;
+    margin-bottom: 30px;
+    background-color:var(--orange-color);
+    color: var(--white-color);
+}
+
+.weather {
+    color: var(--orange-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#display {
+    color: #181108;
+    margin: 30px auto;
+    width: 65%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 10px;
+    border: none;
+}
+
+#nav_bar {
+    margin-bottom: 0px;
+    padding: 0;
+    background-color: var(--white-color);
+    border: none;
+}
+
+#logo {
+    max-height: 42px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+#colHeadText1 {
+    color: var(--white-color);
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+#colHeadText2 {
+    color: var(--white-color);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#rowDiv {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#search {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+#errorCity {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#error {
+    white-space: pre-wrap;
+    margin: 30px auto;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--orange-color);
+    border: none;
+    padding: 20px; 
+    border-radius: 25px; 
+}
+
+#dataHead {
+    text-align: center; 
+    font-size: 3em; 
+    color: var(--orange-color);
+}
+
+#dataBox {
+    padding: 20px; 
+    border-radius: 25px; 
+    box-shadow: 0 0 1.5px;
+    color: #302310;
+}
+
+#dataBox strong {
+    color: var(--orange-color);
+}

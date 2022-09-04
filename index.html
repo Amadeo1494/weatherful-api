@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather API">
+    <meta name="author" content="Amadeo1494">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./libs/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./libs/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./libs/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./libs/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <title>Weatherful: The Minimal Weather App</title>
+    
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="jumbotron bg-warning">
+        <h1 class="text-center"><strong>Weather</strong><i>ful</i></h2>
+    </div>
+    <br/>
+
+    <!-- SEARCH BOX -->
+        <div class="container">
+
+            <!-- INPUT & BUTTON -->
+            <div>
+                <div class="row form-group form-inline" id="rowDiv">
+                    <input type="text" name="city" id="input" class="form-control" placeholder="Enter a town/city here...">
+                    <button type="button" id="search" class="btn btn-warning">Search</button>
+                </div>
+
+            </div>
+
+            <!-- API RESULTS & ERROR MESSAGE-->
+            <div id="display"></div>
+            <div id="error"></div>
+        </div>
+
+    <!-- jQUERY, BOOTSTRAP, & JS -->
+    <script type="application/javascript" src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="application/javascript" src="./libs/js/script.js"></script>
+
+</body>
+
+</html>
